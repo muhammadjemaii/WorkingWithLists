@@ -1,0 +1,232 @@
+﻿namespace WorkingWithLists.ImportDataToList
+{
+    partial class ImportDataToListProduct
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.txt_imp_txt = new System.Windows.Forms.Button();
+            this.btn_showContent = new System.Windows.Forms.Button();
+            this.btn_browse = new System.Windows.Forms.Button();
+            this.txt_fileName = new System.Windows.Forms.TextBox();
+            this.rtxt_listSites = new System.Windows.Forms.RichTextBox();
+            this.btn_cancel = new System.Windows.Forms.Button();
+            this.btn_ok = new System.Windows.Forms.Button();
+            this.btn_clear = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.txt_imp_csv = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer1.IsSplitterFixed = true;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.splitContainer2);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.Window;
+            this.splitContainer1.Panel2.Controls.Add(this.btn_cancel);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_ok);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_clear);
+            this.splitContainer1.Panel2.Padding = new System.Windows.Forms.Padding(3);
+            this.splitContainer1.Size = new System.Drawing.Size(800, 450);
+            this.splitContainer1.SplitterDistance = 370;
+            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.TabIndex = 3;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer2.IsSplitterFixed = true;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.BackColor = System.Drawing.Color.AliceBlue;
+            this.splitContainer2.Panel1.Controls.Add(this.txt_imp_csv);
+            this.splitContainer2.Panel1.Controls.Add(this.txt_imp_txt);
+            this.splitContainer2.Panel1.Controls.Add(this.btn_showContent);
+            this.splitContainer2.Panel1.Controls.Add(this.btn_browse);
+            this.splitContainer2.Panel1.Controls.Add(this.txt_fileName);
+            this.splitContainer2.Panel1.Padding = new System.Windows.Forms.Padding(3);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.rtxt_listSites);
+            this.splitContainer2.Size = new System.Drawing.Size(800, 370);
+            this.splitContainer2.SplitterDistance = 350;
+            this.splitContainer2.TabIndex = 2;
+            // 
+            // txt_imp_txt
+            // 
+            this.txt_imp_txt.Location = new System.Drawing.Point(223, 64);
+            this.txt_imp_txt.Name = "txt_imp_txt";
+            this.txt_imp_txt.Size = new System.Drawing.Size(121, 23);
+            this.txt_imp_txt.TabIndex = 3;
+            this.txt_imp_txt.Text = "Import TXT";
+            this.txt_imp_txt.UseVisualStyleBackColor = true;
+            this.txt_imp_txt.Click += new System.EventHandler(this.Txt_imp_txt_Click);
+            // 
+            // btn_showContent
+            // 
+            this.btn_showContent.Location = new System.Drawing.Point(12, 6);
+            this.btn_showContent.Name = "btn_showContent";
+            this.btn_showContent.Size = new System.Drawing.Size(121, 23);
+            this.btn_showContent.TabIndex = 2;
+            this.btn_showContent.Text = "Show Content";
+            this.btn_showContent.UseVisualStyleBackColor = true;
+            // 
+            // btn_browse
+            // 
+            this.btn_browse.Location = new System.Drawing.Point(223, 35);
+            this.btn_browse.Name = "btn_browse";
+            this.btn_browse.Size = new System.Drawing.Size(121, 23);
+            this.btn_browse.TabIndex = 1;
+            this.btn_browse.Text = "Browse";
+            this.btn_browse.UseVisualStyleBackColor = true;
+            this.btn_browse.Click += new System.EventHandler(this.Btn_browse_Click);
+            // 
+            // txt_fileName
+            // 
+            this.txt_fileName.Location = new System.Drawing.Point(12, 35);
+            this.txt_fileName.Name = "txt_fileName";
+            this.txt_fileName.Size = new System.Drawing.Size(205, 20);
+            this.txt_fileName.TabIndex = 0;
+            // 
+            // rtxt_listSites
+            // 
+            this.rtxt_listSites.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxt_listSites.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtxt_listSites.Location = new System.Drawing.Point(0, 0);
+            this.rtxt_listSites.Name = "rtxt_listSites";
+            this.rtxt_listSites.Size = new System.Drawing.Size(446, 370);
+            this.rtxt_listSites.TabIndex = 0;
+            this.rtxt_listSites.Text = "";
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btn_cancel.Location = new System.Drawing.Point(680, 18);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(114, 27);
+            this.btn_cancel.TabIndex = 4;
+            this.btn_cancel.Text = "Cancel";
+            this.btn_cancel.UseVisualStyleBackColor = true;
+            // 
+            // btn_ok
+            // 
+            this.btn_ok.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_ok.Location = new System.Drawing.Point(560, 18);
+            this.btn_ok.Name = "btn_ok";
+            this.btn_ok.Size = new System.Drawing.Size(114, 27);
+            this.btn_ok.TabIndex = 3;
+            this.btn_ok.Text = "OK";
+            this.btn_ok.UseVisualStyleBackColor = true;
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_clear.Location = new System.Drawing.Point(12, 18);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(114, 27);
+            this.btn_clear.TabIndex = 2;
+            this.btn_clear.Text = "Clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.InitialDirectory = "C:\\Users\\Administrator\\source\\repos\\SharePoint2016_Trainner\\Section 9\\WorkingWith" +
+    "Lists\\ImportDataToList";
+            // 
+            // txt_imp_csv
+            // 
+            this.txt_imp_csv.Location = new System.Drawing.Point(223, 93);
+            this.txt_imp_csv.Name = "txt_imp_csv";
+            this.txt_imp_csv.Size = new System.Drawing.Size(121, 23);
+            this.txt_imp_csv.TabIndex = 4;
+            this.txt_imp_csv.Text = "Import CSV";
+            this.txt_imp_csv.UseVisualStyleBackColor = true;
+            this.txt_imp_csv.Click += new System.EventHandler(this.Txt_imp_csv_Click);
+            // 
+            // ImportDataToListProduct
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.splitContainer1);
+            this.Name = "ImportDataToListProduct";
+            this.Text = "ImportDataToList";
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel1.PerformLayout();
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
+            this.splitContainer2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.SplitContainer splitContainer2;
+        private System.Windows.Forms.RichTextBox rtxt_listSites;
+        private System.Windows.Forms.Button btn_cancel;
+        private System.Windows.Forms.Button btn_ok;
+        private System.Windows.Forms.Button btn_clear;
+        private System.Windows.Forms.Button txt_imp_txt;
+        private System.Windows.Forms.Button btn_showContent;
+        private System.Windows.Forms.Button btn_browse;
+        private System.Windows.Forms.TextBox txt_fileName;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button txt_imp_csv;
+    }
+}

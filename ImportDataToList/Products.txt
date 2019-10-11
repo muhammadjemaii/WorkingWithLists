@@ -1,0 +1,8 @@
+Core i7
+3000
+Core i5
+2500
+core i3
+2000
+Xeno
+1500
